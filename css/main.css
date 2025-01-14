@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    cursor: pointer;
+}
+
+.ans-container {
+    background-color: burlywood;
+    padding: 5px;
+    text-align: center;
+}
+
+.ans-container h2 {
+    text-transform: capitalize;
+    font-size: 1.6em;
+}
+
+.ans-container img {
+    width: 100%;
+}
+
+.ans-container button {
+    font-size: 2em;
+    padding: 0.5em 1em;
+}
+
+.modal {
+    background-color: azure;
+    padding: 10px;
+}

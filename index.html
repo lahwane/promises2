@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/main.css" />
+	<title>Promises</title>
+</head>
+
+<body>
+	<h1>Hello Promises</h1>
+
+	<section class="ans-container">
+		<button onclick="onAsk()">May I?</button>
+		<section class="answer">
+			<h2></h2>
+			<img src="" />
+		</section>
+	</section>
+
+	<section class="user-container">
+		<h2>Users Manager</h2>
+		<ul class="user-list"></ul>
+		<button onclick="onLoadUsers()">Load Users</button>
+	</section>
+
+	<script src="lib/swal.js"></script>
+	<script src="lib/axios.js"></script>
+	<script src="js/services/util.service.js"></script>
+
+	<!-- <script src="js/services/ans.service.js"></script> -->
+	<!-- <script src="js/services/ans.service-axios.js"></script> -->
+	<script src="js/services/ans.service-fetch.js"></script>
+	<script src="js/services/user.service.js"></script>
+
+	<script src="js/ans.controller.js"></script>
+	<script src="js/user.controller.js"></script>
+</body>
+
+</html>
